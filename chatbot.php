@@ -45,7 +45,7 @@ function chatbot_rest_api_handler(WP_REST_Request $request) {
 
     // Define the URL for your n8n webhook.
     // In a production environment, you should load this from a constant or environment variable.
-    $n8n_webhook_url = 'http://localhost:5678/webhook/4091fa09-fb9a-4039-9411-7104d213f601/chat';
+    $n8n_webhook_url = 'http://localhost:5678/webhook-test/28b4276d-b522-4b8b-a1d4-95ef6a255ece';
 
     // Forward the message to your n8n webhook.
     $response = wp_remote_post($n8n_webhook_url, array(
