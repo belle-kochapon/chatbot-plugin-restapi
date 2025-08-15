@@ -12,3 +12,6 @@ This plugin provides a user-friendly chatbot interface for a WordPress site. It'
 Once activated, the chatbot widget will appear on all pages of your site. Visitors can click the widget to open the chat window and start a conversation.
 
 You can modify the chatbot's behaviour and responses by editing the `main.js` file located in the plugin's root directory.
+
+## Note: 
+This version of the chatbot plugin is currently a test version that works exclusively with an n8n workflow and does not use an AI agent. Its purpose is to test the integration between the frontend, WordPress backend, and n8n. You can review the test_connection.json file to see the workflow.
